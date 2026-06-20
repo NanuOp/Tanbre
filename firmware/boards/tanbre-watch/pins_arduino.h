@@ -86,10 +86,10 @@ static const uint8_t SCK = SPI_SCK_PIN;
 // Analog microphone (not populated)
 #define ANALOG_MIC_PIN -1
 
-// Physical buttons (not populated)
+// Physical buttons
+#define DW_BTN 1  // D0 / GPIO 1
+#define UP_BTN 3  // D2 / GPIO 3
 #define SEL_BTN -1
-#define UP_BTN -1
-#define DW_BTN -1
 #define BTN_ACT LOW
 
 // BadUSB Dummy Pins (Not used)
