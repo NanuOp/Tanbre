@@ -22,6 +22,10 @@ This hardware revision only populates the Seeed Studio XIAO ESP32-S3 module, a 1
 | **D4** | GPIO 5 | **OLED SDA** | I2C Data |
 | **D5** | GPIO 6 | **OLED SCL** | I2C Clock |
 
+Buttons 
+button 1 D0
+button 2 D3
+
 All other exposed GPIOs are currently unassigned in the Tanbre firmware profile.
 
 ---
